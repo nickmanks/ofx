@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Ciutadella Rounded';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/ciutadella-rounded.eot'); /* IE9 Compat Modes */
+  src:
+       url('/ciutadella-rounded.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/ciutadella-rounded.woff') format('woff'), /* Modern Browsers */
+       url('/ciutadella-rounded.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/ciutadella-rounded.svg') format('svg'); /* Legacy iOS */
+}
+
+$font-family: 'Ciutadella Rounded', 'Helvetica', -apple-system, BlinkMacSystemFont, Arial, sans-serif;
+
+body {
+  font-family: $font-family;
+}
+
+h1, h2, h3, h4, h5, h6, p, b {
+  font-family: $font-family;
+}

@@ -14,8 +14,10 @@ $font-family: 'Ciutadella Rounded', 'Helvetica', -apple-system, BlinkMacSystemFo
 
 body {
   font-family: $font-family;
+  margin: 0;
+  overflow-x: hidden;
 }
 
-h1, h2, h3, h4, h5, h6, p, b {
+h1, h2, h3, h4, h5, h6, p, b, li, input, label, button, span, div {
   font-family: $font-family;
 }

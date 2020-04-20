@@ -2,6 +2,6 @@
 
 import {lazy} from 'react';
 
-const LazyQuote = lazy(()=> import(/* webpackChunkName: "QuoteView" */ '.'));
+const LazyResult = lazy(()=> import(/* webpackChunkName: "ResultView" */ '.'));
 
-export default LazyQuote;
+export default LazyResult;

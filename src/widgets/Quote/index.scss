@@ -1,0 +1,51 @@
+@import '#scss/colors';
+
+.form {
+  margin: auto;
+  max-width: 700px;
+  padding: 1rem;
+
+  h1 {
+    border-bottom: 1px solid $primary;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.container-top {
+  border-radius: 0.5rem;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  padding: 2rem 2rem 1rem;
+  text-align: center;
+}
+
+.container-bottom {
+  background-color: #fff4e8;
+  border-radius: 0.5rem;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  padding: 1rem 2rem 2rem;
+  text-align: center;
+}
+
+.submit {
+  background-color: $primary;
+  border: unset;
+  border-radius: 5rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 28px;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+
+  &:hover {
+    background-color: darken($primary, 3);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.column {
+  text-align: left;
+}

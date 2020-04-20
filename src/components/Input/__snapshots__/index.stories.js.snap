@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`amount type 1`] = `
+<div
+  className="mock-inputGroup"
+>
+  <label
+    htmlFor="amount"
+  >
+    Amount
+  </label>
+  <div
+    className="mock-textbox"
+  >
+    <input
+      className="mock-input"
+      id="amount"
+      name="amount"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Amount"
+      type="text"
+    />
+    <p
+      className="mock-error"
+    >
+      Required
+    </p>
+    <div
+      className="mock-border"
+    />
+  </div>
+</div>
+`;
+
+exports[`standard 1`] = `
+<div
+  className="mock-inputGroup"
+>
+  <label>
+    First Name
+  </label>
+  <div
+    className="mock-textbox"
+  >
+    <input
+      className="mock-input"
+      name="first"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="First Name"
+      type="text"
+    />
+    <div
+      className="mock-border"
+    />
+  </div>
+</div>
+`;
+
+exports[`with error 1`] = `
+<div
+  className="mock-inputGroup"
+>
+  <label>
+    First Name
+  </label>
+  <div
+    className="mock-textbox"
+  >
+    <input
+      className="mock-input"
+      name="first"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="First Name"
+      type="text"
+    />
+    <p
+      className="mock-error"
+    >
+      Required
+    </p>
+    <div
+      className="mock-border"
+    />
+  </div>
+</div>
+`;

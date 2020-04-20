@@ -1,0 +1,62 @@
+@import '#scss/colors';
+
+.input-group {
+  text-align: left;
+}
+
+.textbox {
+  background: #ccc;
+  border-radius: 6px;
+  margin: 1rem 0;
+  overflow: hidden;
+  padding: 1px;
+  position: relative;
+  z-index: 1;
+}
+
+.label {
+  text-align: left;
+}
+
+.input {
+  border: unset;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #1e1407;
+  font-size: 1.8rem;
+  outline: none;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  z-index: 2;
+
+  &::placeholder {
+    color: #e0e0e0;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.border {
+  background: $primary;
+  content: '';
+  height: 0%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  transition: height 0.3s, width 0.3s 0.1s;
+  width: 0%;
+  z-index: -1;
+
+  &-focused {
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.error {
+  color: #fff;
+  line-height: 0.2rem;
+  margin-left: 1rem;
+}

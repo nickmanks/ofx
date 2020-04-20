@@ -1,5 +1,5 @@
+import LazyHome from '#src/views/Home/lazy';
 import LazyQuote from '#src/views/Quote/lazy';
-import LazyResult from '#src/views/Result/lazy';
 
 export const routes = [
   {
@@ -7,13 +7,13 @@ export const routes = [
     path: '/',
     exact: true,
     auth: false,
-    component: LazyQuote
+    component: LazyHome
   },
   {
     title: 'Your Personalised Quote',
     path: '/result',
     exact: true,
     auth: false,
-    component: LazyResult
+    component: LazyQuote
   }
 ];

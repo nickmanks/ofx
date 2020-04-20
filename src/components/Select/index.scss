@@ -1,0 +1,21 @@
+@import '#scss/colors';
+
+.textbox {
+  background: #ccc;
+  border-radius: 5px;
+
+  &-error {
+    margin-bottom: 1rem;
+    padding-bottom: 1px;
+  }
+
+  &-focused {
+    background: $primary;
+  }
+
+  p {
+    color: #fff;
+    line-height: 0.2rem;
+    margin-left: 1rem;
+  }
+}

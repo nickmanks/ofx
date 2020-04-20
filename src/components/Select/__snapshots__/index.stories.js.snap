@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`standard 1`] = `
+<div
+  className="mock-textbox"
+>
+  <div>
+    React Select
+  </div>
+  <div
+    className="mock-border"
+  />
+</div>
+`;
+
+exports[`with error 1`] = `
+<div
+  className="mock-textbox mock-textboxError"
+>
+  <div>
+    React Select
+  </div>
+  <p
+    className="mock-error"
+  >
+    Required
+  </p>
+  <div
+    className="mock-border"
+  />
+</div>
+`;

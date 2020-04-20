@@ -1,0 +1,92 @@
+@import '#scss/colors';
+
+.result {
+  margin: auto;
+  max-width: 700px;
+  padding: 1rem;
+
+  h1 {
+    border-bottom: 1px solid $primary;
+    padding-bottom: 0.5rem;
+  }
+}
+
+.container {
+  border-radius: 0.5rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  min-height: 30rem;
+  padding: 2rem 2rem 1rem;
+  text-align: center;
+}
+
+.value {
+  border: unset !important;
+  font-size: 40px;
+}
+
+.fade-in {
+  animation-duration: 1s;
+  animation-name: fadeIn;
+}
+
+.tada {
+  animation-delay: 1s;
+  animation-duration: 1s;
+  animation-name: tada;
+}
+
+.button {
+  background-color: $primary;
+  border: unset;
+  border-radius: 5rem;
+  color: #fff;
+  cursor: pointer;
+  font-size: 28px;
+  margin-top: 1rem;
+  padding: 1rem 3rem;
+
+  &:hover {
+    background-color: darken($primary, 3);
+    box-shadow: 0 3px 4px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%,
+  20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%,
+  50%,
+  70%,
+  90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%,
+  60%,
+  80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}

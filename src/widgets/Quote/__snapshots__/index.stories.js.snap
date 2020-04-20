@@ -1,0 +1,465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`standard 1`] = `
+<form
+  className="mock-form"
+  onSubmit={[Function]}
+>
+  <h1>
+    Quick Quote
+  </h1>
+  <div
+    className="mock-containerTop"
+  >
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "maxWidth": "960px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "normal",
+            "display": "flex",
+            "flexGrow": 0,
+            "flexShrink": 0,
+            "flexWrap": "wrap",
+            "justifyContent": "flex-start",
+            "marginLeft": "-15px",
+            "marginRight": "-15px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "flexBasis": "50%",
+              "flexGrow": 0,
+              "flexShrink": 0,
+              "left": "auto",
+              "marginLeft": "0%",
+              "maxWidth": "50%",
+              "minHeight": "1px",
+              "paddingLeft": "15px",
+              "paddingRight": "15px",
+              "position": "relative",
+              "right": "auto",
+              "width": "50%",
+            }
+          }
+        >
+          <div
+            className="mock-inputGroup"
+          >
+            <label>
+              First Name
+            </label>
+            <div
+              className="mock-textbox"
+            >
+              <input
+                className="mock-input"
+                name="first"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder="First Name"
+                type="text"
+                value=""
+              />
+              <div
+                className="mock-border"
+              />
+            </div>
+          </div>
+        </div>
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "flexBasis": "50%",
+              "flexGrow": 0,
+              "flexShrink": 0,
+              "left": "auto",
+              "marginLeft": "0%",
+              "maxWidth": "50%",
+              "minHeight": "1px",
+              "paddingLeft": "15px",
+              "paddingRight": "15px",
+              "position": "relative",
+              "right": "auto",
+              "width": "50%",
+            }
+          }
+        >
+          <div
+            className="mock-inputGroup"
+          >
+            <label>
+              Last Name
+            </label>
+            <div
+              className="mock-textbox"
+            >
+              <input
+                className="mock-input"
+                name="last"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder="Last Name"
+                type="text"
+                value=""
+              />
+              <div
+                className="mock-border"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "alignItems": "normal",
+            "display": "flex",
+            "flexGrow": 0,
+            "flexShrink": 0,
+            "flexWrap": "wrap",
+            "justifyContent": "flex-start",
+            "marginLeft": "-15px",
+            "marginRight": "-15px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "flexBasis": "100%",
+              "flexGrow": 0,
+              "flexShrink": 0,
+              "left": "auto",
+              "marginLeft": "0%",
+              "maxWidth": "100%",
+              "minHeight": "1px",
+              "paddingLeft": "15px",
+              "paddingRight": "15px",
+              "position": "relative",
+              "right": "auto",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="mock-inputGroup"
+          >
+            <label>
+              Email
+            </label>
+            <div
+              className="mock-textbox"
+            >
+              <input
+                className="mock-input"
+                name="email"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder="Email"
+                type="email"
+                value=""
+              />
+              <div
+                className="mock-border"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "alignItems": "normal",
+            "display": "flex",
+            "flexGrow": 0,
+            "flexShrink": 0,
+            "flexWrap": "wrap",
+            "justifyContent": "flex-start",
+            "marginLeft": "-15px",
+            "marginRight": "-15px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "flexBasis": "100%",
+              "flexGrow": 0,
+              "flexShrink": 0,
+              "left": "auto",
+              "marginLeft": "0%",
+              "maxWidth": "100%",
+              "minHeight": "1px",
+              "paddingLeft": "15px",
+              "paddingRight": "15px",
+              "position": "relative",
+              "right": "auto",
+              "width": "100%",
+            }
+          }
+        >
+          <div
+            className="mock-inputGroup"
+          >
+            <label
+              htmlFor="phone"
+            >
+              Telephone / Mobile
+            </label>
+            <div
+              className="mock-container react-tel-input"
+              onKeyDown={[Function]}
+              style={Object {}}
+            >
+              <input
+                className="mock-input form-control"
+                disabled={false}
+                onBlur={[Function]}
+                onChange={[Function]}
+                onClick={[Function]}
+                onCopy={[Function]}
+                onDoubleClick={[Function]}
+                onFocus={[Function]}
+                onKeyDown={[Function]}
+                placeholder="1 (702) 123-4567"
+                style={Object {}}
+                type="tel"
+                value="+61"
+              />
+              <div
+                className="mock-flag flag-dropdown"
+                role="button"
+                style={Object {}}
+                tabIndex="0"
+              >
+                <div
+                  className="selected-flag"
+                  onClick={[Function]}
+                  title="Australia: + 61"
+                >
+                  <div
+                    className="flag au"
+                  >
+                    <div
+                      className="arrow"
+                    />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <span
+        style={
+          Object {
+            "clear": "both",
+            "display": "table",
+          }
+        }
+      />
+    </div>
+  </div>
+  <div
+    className="mock-containerBottom"
+  >
+    <div
+      style={
+        Object {
+          "boxSizing": "border-box",
+          "marginLeft": "auto",
+          "marginRight": "auto",
+          "maxWidth": "960px",
+          "paddingLeft": "15px",
+          "paddingRight": "15px",
+          "position": "relative",
+        }
+      }
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "normal",
+            "display": "flex",
+            "flexGrow": 0,
+            "flexShrink": 0,
+            "flexWrap": "wrap",
+            "justifyContent": "flex-start",
+            "marginLeft": "-15px",
+            "marginRight": "-15px",
+          }
+        }
+      >
+        <div
+          className="mock-column"
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "flexBasis": "50%",
+              "flexGrow": 0,
+              "flexShrink": 0,
+              "left": "auto",
+              "marginLeft": "0%",
+              "maxWidth": "50%",
+              "minHeight": "1px",
+              "paddingLeft": "15px",
+              "paddingRight": "15px",
+              "position": "relative",
+              "right": "auto",
+              "width": "50%",
+            }
+          }
+        >
+          <label
+            htmlFor="from"
+          >
+            From Currency
+          </label>
+          <div
+            className="mock-textbox"
+          >
+            <div>
+              React Select
+            </div>
+            <div
+              className="mock-border"
+            />
+          </div>
+        </div>
+        <div
+          className="mock-column"
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "flexBasis": "50%",
+              "flexGrow": 0,
+              "flexShrink": 0,
+              "left": "auto",
+              "marginLeft": "0%",
+              "maxWidth": "50%",
+              "minHeight": "1px",
+              "paddingLeft": "15px",
+              "paddingRight": "15px",
+              "position": "relative",
+              "right": "auto",
+              "width": "50%",
+            }
+          }
+        >
+          <label
+            htmlFor="to"
+          >
+            To Currency
+          </label>
+          <div
+            className="mock-textbox"
+          >
+            <div>
+              React Select
+            </div>
+            <div
+              className="mock-border"
+            />
+          </div>
+        </div>
+      </div>
+      <div
+        style={
+          Object {
+            "alignItems": "normal",
+            "display": "flex",
+            "flexGrow": 0,
+            "flexShrink": 0,
+            "flexWrap": "wrap",
+            "justifyContent": "flex-start",
+            "marginLeft": "-15px",
+            "marginRight": "-15px",
+          }
+        }
+      >
+        <div
+          style={
+            Object {
+              "boxSizing": "border-box",
+              "flexBasis": "66.66666666666667%",
+              "flexGrow": 0,
+              "flexShrink": 0,
+              "left": "auto",
+              "marginLeft": "0%",
+              "maxWidth": "66.66666666666667%",
+              "minHeight": "1px",
+              "paddingLeft": "15px",
+              "paddingRight": "15px",
+              "position": "relative",
+              "right": "auto",
+              "width": "66.66666666666667%",
+            }
+          }
+        >
+          <div
+            className="mock-inputGroup"
+          >
+            <label
+              htmlFor="amount"
+            >
+              Amount
+            </label>
+            <div
+              className="mock-textbox"
+            >
+              <input
+                className="mock-input"
+                id="amount"
+                name="amount"
+                onBlur={[Function]}
+                onChange={[Function]}
+                onFocus={[Function]}
+                placeholder="Amount"
+                type="text"
+              />
+              <div
+                className="mock-border"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+      <span
+        style={
+          Object {
+            "clear": "both",
+            "display": "table",
+          }
+        }
+      />
+    </div>
+    <button
+      className="mock-submit"
+      type="submit"
+    >
+      Get Quote
+    </button>
+  </div>
+</form>
+`;

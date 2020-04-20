@@ -1,0 +1,53 @@
+@import '#scss/colors';
+
+.input-group {
+  text-align: left;
+}
+
+.container {
+  border: 1px solid hsl(0, 0%, 80%);
+  border-radius: 5px;
+  margin-top: 1rem;
+  position: relative;
+  width: 100%;
+
+  &-focused {
+    border: 1px solid $primary;
+  }
+}
+
+.input {
+  border: unset !important;
+  border-radius: 5px;
+  box-sizing: border-box;
+  color: #1e1407;
+  font-size: 1.8rem !important;
+  height: unset !important;
+  letter-spacing: unset !important;
+  line-height: unset !important;
+  margin: unset !important;
+  outline: none !important;
+  padding: 0.5rem 1rem !important;
+  padding-left: 3rem !important;
+  position: relative;
+  width: 100% !important;
+  z-index: 5;
+
+  &::placeholder {
+    color: #e0e0e0;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.flag {
+  border: unset !important;
+  border-radius: 5px 0 0 5px !important;
+  z-index: 6 !important;
+}
+
+.list {
+  z-index: 6 !important;
+}
